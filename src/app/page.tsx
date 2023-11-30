@@ -1,8 +1,11 @@
-import Image from 'next/image'
 import { SectionHero } from '../components/section-hero'
+import { SectionCards } from '../components/section-cards'
 
 export default function Home() {
   return (
-    <SectionHero />
+    <>
+      <SectionHero />
+      <SectionCards />
+    </>
   )
 }
