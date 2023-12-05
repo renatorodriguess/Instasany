@@ -8,10 +8,13 @@ const epilogue = Epilogue({
 
 })
 
+
+
 export const metadata: Metadata = {
-  title: 'Intaphotos',
+  title: 'Instasany',
   description: 'Landing Page de fotos e stories',
 }
+
 
 export default function RootLayout({
   children,
