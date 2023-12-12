@@ -97,7 +97,7 @@ export function SectionCards() {
                 ref={mockupRef}
             />
 
-            <h2 className='text-center text-7xl font-semibold text-black mb-52 opacity-0' ref={titleRef}> <span className='text-green-card-title'>você</span> mesmo de casa</h2>
+            <h2 className='text-center text-7xl font-semibold text-black mb-52 opacity-0' ref={titleRef}>Faça <span className='text-green-card-title'>você</span> mesmo de casa</h2>
 
             <div className='relative w-full max-w-area-cards mx-auto h-area-cards'>
                 <Image src={Card01} ref={card01Ref} className='absolute top-8 left-44 opacity-0' alt='Card0 1'/>
